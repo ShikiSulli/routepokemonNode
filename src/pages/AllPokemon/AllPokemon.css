@@ -1,0 +1,77 @@
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: red;
+  
+  }
+  .card-image
+  {
+    width: 30%;
+    height: auto;
+  }
+  .type-image {
+    width: 10%;
+    height: auto;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+  
+  }
+  .card 
+  {
+    width: 30%;
+    margin: 1rem;
+    background-color: rgb(246, 246, 165);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    /* Existing styles */
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-name,
+  .card-types,
+  .card-stats {
+    text-align: center;
+    margin: auto;
+  }
+.card-button
+{
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.card-button:hover
+{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
